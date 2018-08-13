@@ -1,0 +1,242 @@
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    head {
+        width: 100%;
+    }
+    
+    .bar_1 {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(192, 100, 100);
+    }
+    
+    .wrap {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .header1 {
+        width: 100%;
+        height: 100px;
+        margin: auto;
+    }
+    
+    .header1_item {
+        width: 46%;
+        float: left;
+        height: 100px;
+        background-color: bisque;
+        margin: 2%
+    }
+    
+    .header2 {
+        width: 100%;
+        margin: auto;
+        height: 200px;
+    }
+    
+    .content1 {
+        width: 46%;
+        float: left;
+        height: 100%;
+        margin: 2%
+    }
+    
+    .header2_item {
+        width: 46%;
+        float: left;
+        height: 100%;
+        margin: 2%;
+        background-color: bisque;
+    }
+    
+    .header2_center1 {
+        width: 100%;
+        height: 48%;
+        background-color: red;
+        margin-bottom: 4%;
+        float: left;
+    }
+    
+    .header2_center2 {
+        width: 100%;
+        height: 48%;
+        margin-top: 4%;
+        background-color: blue;
+        float: left;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .bar_2 {
+        width: 50%;
+        margin: auto;
+        height: 50px;
+        background-color: grey;
+        margin-top: 20px;
+    }
+    
+    .main_1 {
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        margin-top: 15px;
+    }
+    
+    .content2 {
+        width: 46%;
+        float: left;
+        height: 100%;
+        margin: 2%;
+        background-color: bisque;
+    }
+    
+    .main_1_item1 {
+        width: 38%;
+        height: 200px;
+        float: left;
+        background-color: greenyellow;
+        margin-right: 4%;
+    }
+    
+    .main_1_item2 {
+        width: 58%;
+        height: 200px;
+        float: left;
+        background-color: greenyellow;
+    }
+    
+    .main_2 {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .colum {
+        width: 31%;
+        margin: 1%;
+        float: left;
+    }
+    
+    .row1 {
+        width: 100%;
+        height: 300px;
+        background-color: blue;
+        margin-top: 3%;
+    }
+    
+    .row2-1 {
+        width: 100%;
+        height: 350px;
+        background-color: yellowgreen;
+        margin-top: 3%;
+    }
+    
+    .row2-2 {
+        width: 100%;
+        height: 500px;
+        background-color: yellowgreen;
+        margin-top: 3%;
+    }
+    
+    .row3-1 {
+        width: 100%;
+        height: 200px;
+        background-color: yellowgreen;
+        margin-top: 3%;
+    }
+    
+    .row3-2 {
+        width: 100%;
+        height: 350px;
+        background-color: yellowgreen;
+        margin-top: 3%;
+    }
+    
+    .row3-3 {
+        width: 100%;
+        height: 400px;
+        background-color: yellowgreen;
+        margin-top: 3%;
+    }
+    
+    footer {
+        width: 100%;
+        height: 200px;
+        padding-top: 50px;
+    }
+    
+    .footer_1 {
+        width: 80%;
+        margin-top: 50px;
+        margin: auto;
+        height: 100px;
+    }
+    
+    .footer_1_item {
+        width: 16.6%;
+        float: left;
+        height: 100px;
+    }
+    
+    #item1 {
+        background-color: aqua;
+    }
+    
+    #item2 {
+        background-color: black;
+    }
+    
+    #item3 {
+        background-color: yellow;
+    }
+    
+    #item4 {
+        background-color: rgb(134, 21, 83);
+    }
+    
+    #item5 {
+        background-color: rgb(255, 0, 0);
+    }
+    
+    #item6 {
+        background-color: rgb(79, 70, 97);
+    }
+    
+    .footer_2 {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .footer_2_small {
+        width: 8.3%;
+        height: 100px;
+        float: left;
+    }
+    
+    .footer_2_item {
+        width: 16.6%;
+        height: 100px;
+        float: left;
+    }
+    
+    #box1 {
+        background-color: white;
+    }
+    
+    #box2 {
+        background-color: rgb(90, 72, 72);
+    }
+    
+    #box4 {
+        background-color: brown;
+    }
+    
+    #box6 {
+        background-color: green
+    }

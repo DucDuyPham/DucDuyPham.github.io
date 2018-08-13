@@ -2,8 +2,9 @@ html,body{margin:0;padding: 0;}
 *{box-sizing: border-box;}
 img{max-width: 100%;}
 
+
 body{
-	font-family: "Open sans" , arial, sans-serif;
+	font-family: "Myriad Pro" , arial, sans-serif;
 	font-weight: 1000;
 	background-color: #FFFFFF;
 }
@@ -18,7 +19,7 @@ body{
 }
 
 h1 {
-	animation: title 5s ease infinite;
+	animation: title 3s ease infinite;
 }
 
 h1{
