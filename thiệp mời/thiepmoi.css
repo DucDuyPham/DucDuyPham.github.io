@@ -1,0 +1,197 @@
+h1 {
+  animation: title 3s ease infinite;
+}
+
+h1{
+  margin: 25px 0;
+  font-size: 3em;
+  line-height: 1.5em;
+  font-family: Georgia;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #8E0B00;
+  text-align: center;
+}
+
+body {
+  background: #000;
+}
+
+.dumpster-fire {
+  font-size: 90vmin;
+  height: 1em;
+  margin: 5vmin auto;
+  position: relative;
+  width: 1em;
+}
+.dumpster-fire div {
+  position: absolute;
+}
+
+.dumpster-lid {
+  background: darkslategrey;
+  box-shadow: 5px -5px 5px 0px rgba(0, 0, 0, 0.3);
+  height: 30%;
+  top: 17%;
+  -webkit-transform: skewY(-20deg) skewX(20deg);
+          transform: skewY(-20deg) skewX(20deg);
+  width: 60%;
+}
+
+.glow {
+  background: red;
+  border-radius: 100%;
+  -webkit-filter: blur(5rem);
+          filter: blur(5rem);
+  height: 65%;
+  opacity: 0.5;
+  top: 10%;
+  width: 80%;
+}
+
+.afterglow {
+  background: white;
+  border-radius: 100%;
+  -webkit-filter: blur(4rem);
+          filter: blur(4rem);
+  height: 65%;
+  opacity: 0.2;
+  top: 10%;
+  width: 80%;
+}
+
+.fire {
+  -webkit-filter: blur(6px);
+          filter: blur(6px);
+  height: 65%;
+  left: 5%;
+  opacity: 0.5;
+  top: 10%;
+  width: 80%;
+}
+.fire .flame {
+  -webkit-animation: flame 0.5s ease-in infinite;
+          animation: flame 0.5s ease-in infinite;
+  background: red;
+  -webkit-clip-path: inset(0 25% 25% 0 round 0 100% 100% 100%);
+          clip-path: inset(0 25% 25% 0 round 0 100% 100% 100%);
+  height: 40%;
+  top: 65%;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+  width: 40%;
+}
+.fire .flame:nth-child(2n) {
+  -webkit-animation: flame 0.45s ease-in infinite;
+          animation: flame 0.45s ease-in infinite;
+  background: orange;
+}
+.fire .flame:nth-child(3n) {
+  -webkit-animation: flame 0.4s ease-in infinite;
+          animation: flame 0.4s ease-in infinite;
+}
+.fire .flame:nth-child(4n) {
+  -webkit-animation: flame 0.4s 0.2s ease-in infinite;
+          animation: flame 0.4s 0.2s ease-in infinite;
+}
+.fire .flame:nth-child(5n) {
+  -webkit-animation: flame 0.5s 0.25s ease-in infinite;
+          animation: flame 0.5s 0.25s ease-in infinite;
+}
+
+.dumpster-back {
+  background: #38683b;
+  height: 25%;
+  left: 5%;
+  top: 45%;
+  -webkit-transform: skewY(-20deg);
+          transform: skewY(-20deg);
+  width: 60%;
+}
+
+.dumpster-left {
+  background: #38683b;
+  height: 25.5%;
+  left: 5.2%;
+  top: 63.5%;
+  -webkit-transform: skewY(45deg);
+          transform: skewY(45deg);
+  width: 15%;
+}
+
+.dumpster-right {
+  background: #38683b;
+  height: 25.5%;
+  right: 20%;
+  top: 41.5%;
+  -webkit-transform: skewY(45deg);
+          transform: skewY(45deg);
+  width: 15.1%;
+}
+
+.dumpster-front {
+  background: #38683b;
+  height: 25%;
+  left: 20%;
+  top: 60%;
+  -webkit-transform: skewY(-20deg);
+          transform: skewY(-20deg);
+  width: 60%;
+}
+
+.side {
+  background: #6eb173;
+  box-shadow: inset 0 0 5% #444;
+}
+
+.dumpster-left > .panel {
+  background: #4a894e;
+  height: 25%;
+  left: 20%;
+  top: 25%;
+  width: 60%;
+}
+.dumpster-left > .panel .side.one {
+  height: 100%;
+  right: 0;
+  width: 5%;
+}
+.dumpster-left > .panel .side.two {
+  height: 10%;
+  width: 100%;
+}
+
+.dumpster-front > .panel {
+  background: #4a894e;
+  height: 102%;
+  width: 20%;
+}
+.dumpster-front > .panel.two {
+  left: 40%;
+}
+.dumpster-front > .panel.three {
+  right: 0%;
+}
+.dumpster-front > .panel .side {
+  height: 100%;
+  width: 5%;
+}
+.dumpster-front > .panel .side.right {
+  right: 0;
+}
+
+@-webkit-keyframes flame {
+  100% {
+    top: -30%;
+    -webkit-transform: rotate(50deg) scale(0.01);
+            transform: rotate(50deg) scale(0.01);
+  }
+}
+
+@keyframes flame {
+  100% {
+    top: -30%;
+    -webkit-transform: rotate(50deg) scale(0.01);
+            transform: rotate(50deg) scale(0.01);
+  }
+}
