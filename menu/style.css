@@ -1,6 +1,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 
 ul{
@@ -22,37 +23,56 @@ ul li {
 	height: 40px;
 }
 
-#menu > ul > li {
-	float: left;
 
+.monannhe {
+  width: 100%;
+  display: inline;
+}
+.monannhe-tieude {
+  width: 100%;
+  ;
+}
+.monannhe-chitiet {
+  /*! display: inline; */
+  /*! padding: 10px; */
+  float: left;
+  width: 33.33333%;
+}
+.monannhe-chitiet img {
+  /*! width: calc(100%/3 - 70px); */
+  /*! float: left; */
+  /*! margin: 10px; */
+  width: 89%;
+  height: 202px;
+  overflow: hidden;
+}
+.monannhe-chitiet a {
+  display: block;
+  /*! width: calc(100%/3 - 70px); */
 }
 
-#menu > ul > li > a {
-	text-decoration: none;
-	color:#fff;
-	line-height:40px;
-	display: block;
-	padding: 0px 20px 0px 20px;
+.douong {
+  width: 100%;
+  display: inline;
 }
-
-#menu > ul >li > a:hover {
-	background: red;
+.douong-title {
+  width: 100%;
+  /*! text-align: center; */
 }
-
-#menu > ul > li > ul {
-	background: #293a4a;
-	width: 250px;
+.douong-chitiet {
+  /*! display: inline; */
+  /*! padding: 10px; */
+  float: left;
+  width: 33.33333%;
 }
-
-#menu > ul > li > ul a {
-	display: block;
-	line-height: 40px;
-	color: #FFF;
-	text-decoration: none;
-	border-bottom: 1px solid #ddd;
-	text-indent: 15px;
+.douong-chitiet img {
+  /*! width: calc(100%/3 - 70px); */
+  /*! float: left; */
+  /*! margin: 10px; */
+  width: 89%;
+  height: 200px;
+  overflow: hidden;
 }
-
-#menu > ul > li :hover ul{
-	display: block;
-}
+.douong-chitiet a {
+  display: block;
+  /*! width: calc(100%/3 - 70px); */
