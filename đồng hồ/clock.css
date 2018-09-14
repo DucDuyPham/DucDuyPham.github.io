@@ -1,0 +1,402 @@
+*{box-sizing: border-box;
+	padding:0;
+	margin:0;}
+
+
+.clock {
+    height: 600px;
+    width: 600px;
+    background-color: #e6e6a552;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    padding: 10px;
+    border: 20px solid rgb(198, 192, 255);
+}
+
+
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.logo{position: absolute;
+top: 20%;
+left: 45%;
+font-size: 43px;
+color: red;
+}
+
+.minute-container,
+.hour-container,
+.seconds-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.hour {
+
+  background: #000;
+  height: 20%;
+  left: 48.75%;
+  position: absolute;
+  top: 30%;
+
+  width: 2.5%;
+
+    background: #000;
+    height: 20%;
+    left: 48.75%;
+    position: absolute;
+    top: 30%;
+    transform-origin: 50% 100%;
+    width: 2.5%;
+    z-index: 9;
+
+}
+
+.minute {
+    background: #000;
+    height: 40%;
+    left: 49%;
+    position: absolute;
+    top: 10%;
+    transform-origin: 50% 100%;
+    width: 2%;
+    z-index: 9;
+}
+
+.seconds{
+    background: #000;
+    height: 45%;
+    left: 49.5%;
+    position: absolute;
+    top: 14%;
+    transform-origin: 50% 80%;
+    width: 1%;
+    z-index: 10;}
+
+
+.center{ background: #000;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 5%;
+  height: 5%;
+  z-index: 10;}
+
+
+  .hour-mark li {
+  display:block;
+  width:1%;
+  height:4%;
+  background:#929394;
+ 
+  margin:-.4em 0 0 -.1em;
+}
+
+ .hour-mark li:first-child 
+  {transform:rotate(30deg);
+    position:absolute;
+    top:10%; left:75%;
+  z-index: 5;}
+.hour-mark li:nth-child(2) {
+    transform:rotate(60deg);
+     position:absolute;
+    top:25%; left:90%;
+  z-index: 5;)}
+  	.hour-mark li:nth-child(3) {
+  	transform:rotate(120deg);  position:absolute;
+    top:75%; left:90%;
+  z-index: 5;}
+  	.hour-mark li:nth-child(4) {
+  	transform:rotate(150deg); position:absolute;
+    top:90%; left:75%;
+  z-index: 5;}
+  	.hour-mark li:nth-child(5) {
+  	transform:rotate(210deg);  position:absolute;
+    top:90%; left:25%;
+  z-index: 5;}
+  	.hour-mark li:nth-child(6) {
+  	transform:rotate(240deg); position:absolute;
+    top:75%; left:10%;
+  z-index: 5;}
+  	.hour-mark li:nth-child(7) {
+  	transform:rotate(300deg); position:absolute;
+    top:25%; left:10%;
+  z-index: 5;}
+  	.hour-mark li:nth-child(8) {
+  	transform:rotate(330deg) ; position:absolute;
+    top:10%; left:25%;
+  z-index: 5;}
+
+.main-clock{width: 80%;
+  height: 80%;
+  margin: auto;
+border-radius: 50%;
+background-color:#d4665391;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);}
+
+
+
+
+
+/*clock 1 */
+
+
+.clock1{
+	height: 30%;
+	width: 30%;
+	background-color: #4244ca52;
+	border-radius: 50%;
+
+	position: relative;
+	padding: 10px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  border: 3px solid #b8b5d2}
+
+.minute-container1,
+.hour-container1,
+.seconds-container1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+  .hour-mark1 li {
+  display:block;
+  width:1%;
+  height:4%;
+  background:#929394;
+  position:absolute;
+  top:50%; left:50%;
+  margin:-.2em 0 0 -.1em;
+}
+
+.hour-mark1 li:first-child 
+{transform:rotate(30deg);
+  position:absolute;
+  top:10%; left:75%;
+z-index: 5;}
+.hour-mark1 li:nth-child(2) {
+  transform:rotate(60deg);
+   position:absolute;
+  top:25%; left:90%;
+z-index: 5;)}
+  .hour-mark1 li:nth-child(3) {
+  transform:rotate(120deg);  position:absolute;
+  top:75%; left:90%;
+z-index: 5;}
+  .hour-mark1 li:nth-child(4) {
+  transform:rotate(150deg); position:absolute;
+  top:90%; left:75%;
+z-index: 5;}
+  .hour-mark1 li:nth-child(5) {
+  transform:rotate(210deg);  position:absolute;
+  top:90%; left:25%;
+z-index: 5;}
+  .hour-mark1 li:nth-child(6) {
+  transform:rotate(240deg); position:absolute;
+  top:75%; left:10%;
+z-index: 5;}
+  .hour-mark1 li:nth-child(7) {
+  transform:rotate(300deg); position:absolute;
+  top:25%; left:10%;
+z-index: 5;}
+  .hour-mark1 li:nth-child(8) {
+  transform:rotate(330deg) ; position:absolute;
+  top:10%; left:25%;
+z-index: 5;}
+
+
+
+
+/*   clock 2*/
+
+
+.clock2{
+	height: 30%;
+	width: 30%;
+	background-color: #4b42ca2d;
+	border-radius: 50%;
+
+	position: relative;
+	padding: 10px;
+  position: absolute;
+  left : 33%;
+  bottom: 10%;
+  border: 3px solid #b8b5d2}
+;
+}
+
+.minute-container2,
+.hour-container2,
+.seconds-container2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+  .hour-mark2 li {
+  display:block;
+  width:1%;
+  height:4%;
+  background:#929394;
+  position:absolute;
+  top:50%; left:50%;s
+  margin:-.2em 0 0 -.1em;
+}
+
+.hour-mark2 li:first-child 
+{transform:rotate(30deg);
+  position:absolute;
+  top:10%; left:75%;
+z-index: 5;}
+.hour-mark2 li:nth-child(2) {
+  transform:rotate(60deg);
+   position:absolute;
+  top:25%; left:90%;
+z-index: 5;)}
+  .hour-mark2 li:nth-child(3) {
+  transform:rotate(120deg);  position:absolute;
+  top:75%; left:90%;
+z-index: 5;}
+  .hour-mark2 li:nth-child(4) {
+  transform:rotate(150deg); position:absolute;
+  top:90%; left:75%;
+z-index: 5;}
+  .hour-mark2 li:nth-child(5) {
+  transform:rotate(210deg);  position:absolute;
+  top:90%; left:25%;
+z-index: 5;}
+  .hour-mark2 li:nth-child(6) {
+  transform:rotate(240deg); position:absolute;
+  top:75%; left:10%;
+z-index: 5;}
+  .hour-mark2 li:nth-child(7) {
+  transform:rotate(300deg); position:absolute;
+  top:25%; left:10%;
+z-index: 5;}
+  .hour-mark2 li:nth-child(8) {
+  transform:rotate(330deg) ; position:absolute;
+  top:10%; left:25%;
+z-index: 5;}
+
+/*  clock 3 */
+
+
+
+	.clock3 {
+    height: 30%;
+    width: 30%;
+    background-color: #5b42ca52;
+    border-radius: 50%;
+    position: relative;
+    padding: 10px;
+    position: absolute;
+    bottom: 37%;
+    left: 55%;
+    border: 3px solid #b8b5d2;}
+
+
+.minute-container3,
+.hour-container3,
+.seconds-container3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+  .hour-mark3 li {
+  display:block;
+  width:1%;
+  height:4%;
+  background:#929394;
+  position:absolute;
+  top:50%; left:50%;s
+  margin:-.2em 0 0 -.1em;
+}
+
+.hour-mark3 li:first-child 
+{transform:rotate(30deg);
+  position:absolute;
+  top:10%; left:75%;
+z-index: 5;}
+.hour-mark3 li:nth-child(2) {
+  transform:rotate(60deg);
+   position:absolute;
+  top:25%; left:90%;
+z-index: 5;)}
+  .hour-mark3 li:nth-child(3) {
+  transform:rotate(120deg);  position:absolute;
+  top:75%; left:90%;
+z-index: 5;}
+  .hour-mark3 li:nth-child(4) {
+  transform:rotate(150deg); position:absolute;
+  top:90%; left:75%;
+z-index: 5;}
+  .hour-mark3 li:nth-child(5) {
+  transform:rotate(210deg);  position:absolute;
+  top:90%; left:25%;
+z-index: 5;}
+  .hour-mark3 li:nth-child(6) {
+  transform:rotate(240deg); position:absolute;
+  top:75%; left:10%;
+z-index: 5;}
+  .hour-mark3 li:nth-child(7) {
+  transform:rotate(300deg); position:absolute;
+  top:25%; left:10%;
+z-index: 5;}
+  .hour-mark3 li:nth-child(8) {
+  transform:rotate(330deg) ; position:absolute;
+  top:10%; left:25%;
+z-index: 5;}
