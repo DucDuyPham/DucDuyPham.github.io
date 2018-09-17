@@ -1,0 +1,40 @@
+body{
+	width: 100%;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+.banner{
+	width: 100%;
+	height: 100%;
+}
+.menu-main ul li {
+	float: left;
+	text-decoration:none;
+}
+.clear{
+	clear: both;
+
+}
+.menu-item{
+	background-color: black;
+	width:100%;
+	height:40px;
+	font-size: 24px;
+}
+.menu-item a {
+	font-size: 24px;
+	text-decoration: none;
+	color: #ede4e4;
+}
+.logo img{
+	background-color: green;
+	margin: 0 auto;
+	float: left;
+}
+.danhsach1{
+	float: left;
+	width: 100%;
+	height:100px;
+}

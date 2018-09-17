@@ -1,1 +1,0 @@
-start "" .\HBCD\WinTools\HBCDMenu.exe
