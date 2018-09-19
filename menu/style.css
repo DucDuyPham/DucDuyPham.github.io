@@ -1,13 +1,21 @@
-body{
-	width: 100%;
+*{
+	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 
 }
 
+.container-1{
+	width: 300px;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: relative;
+	float: left;
+  }
+
 .banner{
-	width: 100%;
-	height: 100%;
+	
+	max-width: 1000px;
 }
 .menu-main ul li {
 	float: left;
@@ -16,6 +24,11 @@ body{
 .clear{
 	clear: both;
 
+}
+.menu{
+	background-color: white;
+	float: left;
+	font-size: 30px;
 }
 .menu-item{
 	background-color: black;
@@ -28,13 +41,42 @@ body{
 	text-decoration: none;
 	color: #ede4e4;
 }
-.logo img{
-	background-color: green;
+.logo {
+	color: darkgreen;
 	margin: 0 auto;
 	float: left;
 }
-.danhsach1{
-	float: left;
+.danhsach1 {
 	width: 100%;
 	height:100px;
+
+}
+.thucpham img{
+	width: 284px;
+	height: 300px;	
+	display: block;
+	
+}
+.thucpham2 img{
+	width: 284px;
+	height: 300px;
+	float: left;
+	display: block;
+	font-family: 'Courier New', Courier, monospace
+}
+
+.container-1{
+	text-align: center;
+}
+
+
+.wrap-img{
+	width:20%;
+	float: left;
+	padding:15px;
+}
+.wrap-text{
+	width:20%;
+	float: left;
+	padding:15px;
 }

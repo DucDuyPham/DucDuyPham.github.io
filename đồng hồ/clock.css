@@ -400,3 +400,13 @@ z-index: 5;}
   transform:rotate(330deg) ; position:absolute;
   top:10%; left:25%;
 z-index: 5;}
+
+
+
+.wrap-img{
+  position: relative;
+}
+
+span.text-img {
+  position: absolute;
+}
