@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+         function bai1(a, b) {
+
+                 if (typeof a == "number" && typeof b == "number") {
+                 document.write("Bài1 : 2 tham số là number <br/> ")
+                if (a > b) {
+                document.write("số " + a + " là số lớn hơn <br/>")
+
+                 }
+                else if (a == b) {
+                document.write("Bài 1 : 2 số bằng nhau <br/>")
+                 }
+                 else {
+                 document.write("số " + b + " là số lớn hơn <br/>")
+
+                        }
+                }
+                else {
+                document.write("Bài 1 : 1 trong 2 tham số sai <br/>")
+                }
+                } /* VD */ bai1(13,14)
+                function bai2(a) {
+                if (typeof a == "number" && parseInt(a) > 0) {
+                document.write("Bài 2 : số " + a + " số là một số nguyên dương <br/>")
+
+                var x = 1
+                for (var i = 1; i <= a; i++) {
+                    x = i * x
+
+                } document.write(" và lũy thừa của nó là " + x + "<br/>")
+                return x;
+
+                }
+                else if (typeof a == "string") {
+                document.write("Bài 2 : đây là một chuỗi <br/>")
+                }
+                else {
+                document.write("Bài 2 : số " + a + " không phải là một số nguyên dương <br/>")
+                }
+                } /* VD */ bai2(14)
+
+                function bai3(a) {
+                var b = []
+                for (i = 0; i < a.length; i++) {
+                if (a[i] % 2 == 0) {
+                    b.push(a[i])
+                        }
+                        
+                        }
+                        b.sort();
+                        document.write("bài 3 : "+b+"<br/>")
+                        console.log(b);
+                        } /* VD */ bai3([4,6,8,4,2])
+
+
+                        function bai4(c) {
+
+                        var a = user.username;
+                        var b = user.password;
+
+                        if(a=="" && 6<b.length<12) {
+                        document.write("bài 4 :thỏa mãn")
+                        }
+                        else{
+                        document.write("bài 4 : không thỏa mãn")
+                        }
+                        }/* VD */ bai4( user = {
+                        username: "use",
+                        password: "sec",
+                        confirm: "secret"
+                        })
+</script>
+</head>
+<body>
+    
+</body>
+</html>
