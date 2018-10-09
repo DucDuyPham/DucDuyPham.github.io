@@ -7,6 +7,12 @@ h1{
 	text-decoration: none;
 
 }
+.banner{
+	 max-width: 100%;
+}
+.banner img{
+	width: 100%;
+}
 
 #main-menu a: hover,#main-menu a.active{
 	color: black;
@@ -16,15 +22,10 @@ h1{
 	font-weight: bold;
 }
 
-img{
-	max-width: 100%;
-	max-height: 500px;
-
-}
 .wrap{
-	max-width: 1000px;
+	max-width: 100%;
 	margin: auto;
-	float: left;
+	
 }
 .box{
 	padding: 15px;
