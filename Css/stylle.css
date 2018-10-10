@@ -1,6 +1,9 @@
-html,body{margin:0;padding: 0;}
-*{box-sizing: border-box;}
-img{max-width: 100%;}
+body{
+	margin:0;padding: 0;}
+*{
+	box-sizing: border-box;}
+img{
+	max-width: 100%;}
 
 
 body{
@@ -19,7 +22,7 @@ body{
 }
 
 h1 {
-	animation: title 3s ease infinite;
+	animation: title 5s ease infinite;
 }
 
 h1{
@@ -46,7 +49,6 @@ h1{
 
 .thumb{
 	padding: 4px;
-	border:1px solid #ddd;
 	cursor: pointer;
 }
 
