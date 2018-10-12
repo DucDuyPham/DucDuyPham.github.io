@@ -28,30 +28,33 @@
 	background:#F8F8F8;
 	margin-top:14px;
 }
-.menu-bottom ul li{
+.item-lv1{
 	list-style: none;
 	float:left;
 	padding: 7px 40px;
 
 }
-.menu-bottom ul li a{
+.item-lv1 a{
 	text-decoration: none;
 	font-size: 13px;
 }
-.menu-bottom ul li:hover {
+.item-lv1:hover {
  background: #CDE2CD;
 }
 
-.submenu {
- position: absolute;
- left: 200px;
- top: 0;
- display: none;
+ul.sub-menu {
+	list-style: none;
+	border: 1px solid;
+	display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+li.item-1v2:hover{
+	display: block;
 }
 
-li:hover .submenu {
- display: block;
-}
+
 
 
 .banner img {
@@ -153,7 +156,7 @@ h1{
 	
 }
 .end {
-	width: 100%
+	width: 100%;
 	height:50px;
 	float: left;
 	font-size: 13px;
