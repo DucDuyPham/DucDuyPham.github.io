@@ -28,35 +28,6 @@
 	background:#F8F8F8;
 	margin-top:14px;
 }
-.item-lv1{
-	list-style: none;
-	float:left;
-	padding: 7px 40px;
-
-}
-.item-lv1 a{
-	text-decoration: none;
-	font-size: 13px;
-}
-.item-lv1:hover {
- background: #CDE2CD;
-}
-
-ul.sub-menu {
-	list-style: none;
-	border: 1px solid;
-	display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-}
-li.item-1v2:hover{
-	display: block;
-}
-
-
-
-
 .banner img {
 	width: 100%;
 }
@@ -69,13 +40,7 @@ li.item-1v2:hover{
 .clear{
 	clear: both;
 }
-.menu{
-	background-color: white;
-	float: left;
-	font-size: 30px;
-	margin: 0px auto;
 
-}
 .menu-item{
 	background-color: black;
 	width:100%;
@@ -86,11 +51,35 @@ h1{
 	color: blue;
 	font-size: 30px;
 }
-.menu-item a {
-	text-decoration: none;
-	color: #ede4e4;
-	padding: 5px 10px;
-	font-family: "Times New Roman", Times, serif;
+body{
+	font-family:Arial, sans-serif;
+}
+.menu{
+	display: flex;
+	padding: 0;
+	list-style: none;
+}
+.menu li{
+	padding: 14px 97px;
+}
+.menu li:hover{
+	background-color: #FFF;
+}
+.has-submenu{
+	position: relative;
+}
+.has-submenu:hover .submenu{
+	display: block;
+
+}
+.submenu{
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	display: none;
+	background-color: #FFF;
 }
 .logo {
 	background-color: green;
