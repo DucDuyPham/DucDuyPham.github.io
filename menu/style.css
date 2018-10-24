@@ -57,7 +57,8 @@ body{
 	list-style: none;
 }
 .menu li{
-	padding: 14px 89px;
+	padding: 18px 15px;
+	width: 15%;
 }
 .menu li:hover{
 	background-color: #FFF;
@@ -68,9 +69,6 @@ body{
 .has-submenu:hover .submenu{
 	display: block;
 
-}
-.menu ul li a {
-	text-decoration: none;
 }
 .submenu{
 	list-style: none;
