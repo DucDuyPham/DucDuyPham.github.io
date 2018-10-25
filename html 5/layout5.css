@@ -18,7 +18,7 @@ a{
 }
 
 .header{
-    background: #142d3a;
+    background: #1298dd;
 }
 
 .header-nav{
@@ -46,7 +46,7 @@ a{
 
 h3{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 38px;
     text-align: center;
     padding: 20px 0px;
     color: red;
@@ -58,19 +58,22 @@ h3{
 }
 .content p{
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
 }
-
+.id{
+    max-width: 100%;
+    float: left;
+}
 .right-side{
     width: 280px;
     float: left;
-    margin-top: 40px;
+    margin-top: 202px;
     margin-left: 20px;
-    background: #b9d80c;
+    background: #d80c65;
 }
 .right-side ul{
-    padding:5px;
+    padding:10px;
 }
 .right-side ul li{
     padding: 15px;

@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+     padding: 0px;}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.khung {
+    position: relative;
+    background: #666;
+    height: 70%;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 20%;
+    position: relative;
+    border: 1px solid #999;
+    box-shadow: 5px 5px 6px #333;
+
+}
+input[type="text"] {
+    position: absolute;
+    width: 90%;
+    height: 10%;
+    margin: 5%;
+    text-align: right;
+    top:5%;
+    border: 1px solid #666;
+    padding: 2%;
+}
+
+.clear{
+  clear: both;
+}
+.hangmot {
+    top:25%;
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    
+}
+
+.btn{
+    text-transform: uppercase;
+
+}
+
+input[type="button"] {
+    height: 50%;
+    width: 20%;
+    margin-right: 3%;
+    box-shadow: 2px 2px #888888;
+   float: left;
+     border-radius: 10%;
+
+}
+
+.first {
+    margin-left: 5%;
+}
+.hanghai {
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    top:40%;
+}
+
+.hangba {
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    top:55%;
+}
+
+.hangbon {
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    top:70%;
+}
+
+.hangnam {
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    top:85%;
+
+}
+
+.hang5.nam {
+    width: 43%;
+  
+}
+
+input[type="button"]:hover{
+     cursor: pointer;
+     opacity: 0.8;
+    
+}
+
+.casio {
+    font-weight: bold;
+    position: absolute;
+    top: 2%;
+    right: 35%;
+    text-transform: uppercase;
+}
