@@ -25,7 +25,7 @@
 	margin: 0px auto;
 }
 .menu-bottom{
-	background:#d5d3d3;
+	background:#4CAF50;
 	margin-top:14px;
 }
 
@@ -45,8 +45,8 @@ a{
 	text-decoration:none;
 }
 h1{
-	color: blue;
-	font-size: 30px;
+	color:#da00ff;
+	font-size: 34px;
 }
 body{
 	font-family:Arial, sans-serif;
@@ -58,7 +58,16 @@ body{
 }
 .menu li{
 	padding: 18px 15px;
-	width: 15%;
+	width: 100%;
+}
+.Span-text{
+	text-align: center;
+}
+
+.ulsubmenu{
+	width: 100%;
+}
+
 }
 .menu li:hover{
 	background-color: #FFF;
@@ -111,6 +120,10 @@ body{
 	font-family: 'Courier New', Courier,
 	
 }
+.bocanh{
+	height: 300px;
+	overflow: hidden;
+}
 .box{
 	text-align: center;
 	width: 100%;
@@ -130,13 +143,13 @@ body{
 	width:20%;
 	float: left;
 	padding:15px;
-	background-color: ghostwhite;
+	background-color:#ebf2f5;
 }
 .wrap-text{
 	width:20%;
 	float: left;
 	padding:15px;
-	background-color: ghostwhite;
+	background-color:#ebf2f5;
 }
 .img1{
 	overflow: hidden;

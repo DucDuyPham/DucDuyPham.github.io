@@ -77,11 +77,12 @@ li:hover .submenu {
 	width: 25%;
     vertical-align: top;}
 
-.main-content{position:relative;
-			  left: 134px;
-			  margin-top:10px;
-			  left: 216px;
-    		  top: 11px;}	
+.main-content{
+	position:relative;
+	left: 134px;
+	margin-top:10px;
+	left: 216px;
+    top: 11px;}	
 .danhsach{
 	position:relative;
 			  left: 134px;
