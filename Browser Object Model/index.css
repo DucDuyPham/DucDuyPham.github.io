@@ -5,7 +5,8 @@
 
 body {
 	max-width: 1000px;
-	background: violet;
+	background: url(12.jpg);
+	background-size:cover;
 }
 
 #wrap {
@@ -16,13 +17,13 @@ body {
 
 h1{
 	text-align: center;
-	color:#ec1515;
+	color:rgb(3, 3, 3);
 	font-size:24px;
 }
 
 button {
-	width: 220px;
-	height: 70px;
+	width: 180px;
+	height: 60px;
 	font-size: 25px;
 	border: 1px solid black;
 	cursor: pointer;
@@ -41,7 +42,8 @@ button:hover {
 }
 
 .question {
-	background-color: #e6e8e0;
+	background-color: #aecd6f;
+	
 	text-align: center;
 	line-height: 36px;
 	margin-bottom: 5px;
@@ -49,7 +51,7 @@ button:hover {
 
 .answer div {
 	display: block;
-	background-color: rgb(101, 231, 107);
+	background-color: #BADDBC;
 	margin: 14px 7px;
 	position: relative;
 	padding: 0 10px;
@@ -59,7 +61,7 @@ button:hover {
 
 .answer div:hover {
 	background-color: #aee1dd;
-	color: coral;
+	color: #888e5f;
 }
 
 #button-next {
@@ -71,4 +73,10 @@ button:hover {
 #button-again{
 	position: absolute;
     left: 35%;
+}
+
+#button-change{
+	position: absolute;
+    top: 14%;
+    left: 72%;
 }

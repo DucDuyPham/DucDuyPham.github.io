@@ -1,10 +1,10 @@
 var question0 = {
 	question: "Thủ đô của nước nào có mặt trời mọc sớm nhất?",
 	ans1: "Nhật Bản",
-	ans2: "Hà Quốc",
+	ans2: "Hàn Quốc",
 	ans3: "Hà Lan",
 	ans4: "Việt Nam",
-	correct: "ans2"
+	correct: "ans4"
 };
 
 var question1 = {
@@ -13,7 +13,7 @@ var question1 = {
 	ans2: "5h30 ",
 	ans3: "6h ",
 	ans4: "6h30",
-	correct: "ans2"
+	correct: "ans1"
 };
 
 var question2 = {
@@ -22,7 +22,7 @@ var question2 = {
 	ans2: "Mùa Hè",
 	ans3: "Mùa Thu",
 	ans4: "Mùa Đông",
-	correct: "ans2"
+	correct: "ans3"
 };
 
 var question3= {
@@ -31,7 +31,7 @@ var question3= {
 	ans2: "Hàng Than",
 	ans3: "Nguyên Ninh",
 	ans4: "Cốm Mộc",
-	correct: "ans3"
+	correct: "ans4"
 };
 
 var question4 = {
@@ -47,7 +47,7 @@ var arrQues = [question0,question1,question2,question3,question4];
 
 
 var flag;
-var score = 5;
+var score = 0;
 var count = 1;
 var preScore = 0;
 var numberClick = 0;
@@ -99,3 +99,21 @@ function nextQuestion() {
 		}
 	}
 }
+var Theme = 1;
+function changeTheme(){
+	if (Theme == 1){
+		$('.index').css('background', 'url(21.jpg)');
+   		$('.index').css('background', 'url(21.jpg)');
+		   $('body').css('background','url(0.jpg)');
+		   $('body').css('background-size','cover');
+		Theme -= 1;
+	}
+		
+	else if (Theme == 0){
+		$('.index').css('background', 'url(21.jpg)');
+   		$('.index').css('background', 'url(21.jpg)');
+		   $('body').css('background','url(0.jpg)');
+		   $('body').css('background-size','cover');
+   		Theme += 1;
+   	}
+   }
