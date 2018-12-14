@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.banner-logo{
+    height: 60px;
+}
+ .logo1{
+     height: 100%;
+ }
+.logo1 img{
+    height: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+} 
+.food-op, .bakery-op{
+    display: none;
+}
+/* .food-op{
+    display: block;
+} */
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+/* .galary{
+    position: relative;
+} */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    overflow: scroll;
+  }
+  .hienlen{
+      display: block;
+
+  }
+  .andi{
+      display: none;
+  }
+ul.nav.justify-content-center{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    /* padding: 1%;
+    margin: 1%; */
+    font-style: oblique;
+}
+.span p{
+    text-align: center;
+
+}
+.span button{
+    text-align: center;
+}
+h5.mt-0{
+    font-size: 25px;
+    line-height: normal;
+    margin: 0 0 50px;
+    color: #0C713D;
+}
+h4{
+    padding: 1%;
+    margin: 1%;
+    color: brown;
+    font-family: none;
+}
+.row .bottom {
+    margin-top: 1%;
+}
+.col-12.center {
+    margin-top: 1%;
+    font-style: oblique;
+    color: red;
+}
+img.align1{
+    width: 80%;
+}
+h1{
+    text-align: center;
+    color: brown;
+    padding: 1%;
+    margin: 1%;
+    font-family: serif;
+    font-style: oblique;
+}
+.khachhang img{
+    width: 100%;
+    margin: 2%;
+}
+.media-body {
+    padding: 49px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    float: none;
+
+}
+.btn-primary {
+    color: #e01212;
+    background-color: #ffffff;
+    border-color: #167b0b;
+    font-size: 19px;
+}
+a {
+    color: #0e0e0e;
+    text-decoration: none;
+    background-color:transparent;
+}
+p.gia {
+    font-size: 26px;
+    color: #147718;
+    font-weight: bolder;
+}
+p.tensanpham {
+    font-size: 16px;
+    font-family: "Lora", serif;
+    font-weight: bold;
+    line-height: 28px;
+    color: #010101;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    min-height: 28px;
+    text-transform: capitalize;
+}
+.col-3 {
+    text-align: center;
+}
+
