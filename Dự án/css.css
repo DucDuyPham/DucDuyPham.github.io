@@ -140,4 +140,7 @@ p.tensanpham {
 .col-3 {
     text-align: center;
 }
+img.img-responsive.w-80 {
+    max-width: 144px;
+}
 

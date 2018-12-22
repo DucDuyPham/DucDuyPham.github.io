@@ -1,0 +1,55 @@
+body{
+	margin:0;padding: 0;}
+*{
+	box-sizing: border-box;}
+h1{
+    margin: 25px 0;
+	/* font-size: 3em; */
+	line-height: 1.5em;
+	font-family: Georgia;
+	/* letter-spacing: 0.2em; */
+	color: #8E0B00;
+	text-align: center;
+	text-transform: uppercase;
+    color: #0C713D;
+
+}
+a {
+    color: #0e0e0e;
+    text-decoration: none;
+    background-color:transparent;
+}
+p.gia {
+    font-size: 26px;
+    color: #147718;
+    font-weight: bolder;
+}
+p.tensanpham {
+    font-size: 16px;
+    font-family: "Lora", serif;
+    font-weight: bold;
+    line-height: 28px;
+    color: #010101;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    min-height: 28px;
+	text-transform: capitalize;
+}
+.span p{
+text-align: center;
+
+}
+.span button{
+text-align: center;
+}
+p{
+	text-align: center;
+    font-size: x-large;
+	font-family: -webkit-pictograph;
+	font-size: 22px;
+    line-height: 42px;
+}
