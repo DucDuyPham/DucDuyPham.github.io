@@ -16,15 +16,12 @@ body, html{
  }
 .logo1 img{
     height: 100%;
-    /* margin-left: auto;
-    margin-right: auto; */
+   
 } 
 .food-op, .bakery-op{
     display: none;
 }
-/* .food-op{
-    display: block;
-} */
+
 .container-fluid{
     padding: 0;
     margin: 0;
@@ -33,9 +30,7 @@ body, html{
     margin: 0;
     padding: 0;
 }
-/* .galary{
-    position: relative;
-} */
+
 
 .clearfix::after {
     content: "";
@@ -53,8 +48,6 @@ body, html{
 ul.nav.justify-content-center{
     font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
-    /* padding: 1%;
-    margin: 1%; */
     font-style: oblique;
 }
 .span p{
@@ -70,11 +63,26 @@ h5.mt-0{
     margin: 0 0 50px;
     color: #0C713D;
 }
+.menu-da-cap li a{
+    color: #147718;
+}
+.f-social i{
+    color: #147718;
+    font-size: xx-large;
+}
+.f-social li {
+    margin: 3%;
+}
+.f-copyright{
+    text-align: center;
+    padding-top: 1%; 
+}
 h4{
-    padding: 1%;
-    margin: 1%;
-    color: brown;
+    
+    color:white;
     font-family: none;
+    margin-left: 680px;
+    font-size: 60px;
 }
 .row .bottom {
     margin-top: 1%;
@@ -85,15 +93,31 @@ h4{
     color: red;
 }
 img.align1{
-    width: 80%;
+    width: 100%;
 }
-h1{
+.khachhang h1{
+    color:#147718;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    color: brown;
+}
+.chubanner h4{
+    color: #147718;
+    margin-left: 43%;
+}
+.chubanner {
+    width: 100%;
+}
+.menu-center a{
+    color: #147718;
+}
+.Foodter h1{
+    text-align: center;
+    color:aliceblue;
     padding: 1%;
-    margin: 1%;
-    font-family: serif;
+    margin: 3%;
+    font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
+    font-size: 50px;
 }
 .khachhang img{
     width: 100%;
@@ -112,8 +136,9 @@ h1{
     border-color: #167b0b;
     font-size: 19px;
 }
-a {
-    color: #0e0e0e;
+.Foodter a {
+    color: aliceblue;
+    font-weight: 500;
     text-decoration: none;
     background-color:transparent;
 }
@@ -143,4 +168,65 @@ p.tensanpham {
 img.img-responsive.w-80 {
     max-width: 144px;
 }
+.col-md-6.col-sm-12.Foodter {
+    background-color: forestgreen;
+}
 
+li.1v1 {
+    padding: 3%;
+}
+ul.icon {
+    display: flex;
+    width: 100%;
+    padding: 10px 15px;
+    list-style: none;
+}
+iframe {
+    width: 100%;
+}
+img.align2{
+    width: 80%;
+}
+i.fas.fa-store {
+    color: white;
+    margin: 1%;
+}
+.col-md-7.col-sm-12.Foodter{
+    background-color: #147718;
+}
+#submit-bottom input#newsletter-email {
+    width: 50%;
+    margin-right: 3%;
+    border: 2px solid #147718;
+    color: #147718;
+}
+#submit-bottom {
+    display: flex;
+}
+#submit-bottom button {
+    width: 25%;
+    background: #147718;
+    color: white;
+    font-weight: 500;
+}
+.location button{
+    margin: 0 3%;
+}
+hr{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid #147718;
+}
+.anh  img{
+    border-radius: 15px;
+}
+.BestDirnks img{
+    border-radius: 15px;
+}
+.buttan1{
+    color: #e01212;
+    background-color: #ffffff;
+    border-color: #167b0b;
+    font-size: 19px;
+    
+}

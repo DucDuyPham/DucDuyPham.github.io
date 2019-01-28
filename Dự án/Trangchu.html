@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Phúc Long Hà Nội</title>
+    <link rel="stylesheet" type="text/css" href="fancybox/fancybox-master/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="hover.css" rel="stylesheet" media="all" >
+
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+        <div class="container-fluid">
+            <!-- banner -->
+                <div class="row banner-logo">
+                        <div class="col-4">
+                            <img src="image/delivery.png" alt="">
+                        </div>
+            
+                        <div class="col-4 logo1"style="top:1%">
+                                <img class="logo-1" src="image/14.jpg" alt="" style="
+                                margin-left: 25%";>
+                        </div>
+            
+                        <div class="col-4">
+                                <button type="button" class="btn btn-primary">Đăng Nhập</button>
+                                <button type="button" class="btn btn-primary">Đăng Ký</button>
+                               <a href="gioihang.html"> <button type="button" class="btn btn-primary">Giỏ hàng<i class="fas fa-shopping-cart"></i></button></a>
+                                            
+                                                
+                        </div>
+                    </div>
+
+                    <!-- menu    -->
+                    <div class="row">
+                            <div class="col-md-12 menu-da-cap">
+                                        <ul class="nav justify-content-center"">
+                        <li class="nav-item">
+                                <a class="nav-link active" href="#">Trang Chủ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Đồ uống</a>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Trangchu.html#douong">Dirnk</a>
+                        <a class="dropdown-item" href="Trangchu.html#doan">Food</a>
+                        <a class="dropdown-item" href="Trangchu.html#banh">Bakery</a>
+                        <div class="dropdown-divider"></div>
+                
+                                </div>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="sanpham.html">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item  dropdown">
+                         <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Về Chúng tôi</a>
+                         <div class="dropdown-menu">
+                        <a class="dropdown-item" href="congty.html#Trangchu.html">Công ty</a>
+                        <a class="dropdown-item" href="">Tuyển dụng</a>
+                        <a class="dropdown-item" href="lienhe.html">Liên hệ</a>
+                        <div class="dropdown-divider"></div>
+                        </li>
+                        <li class="nav-item  dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tin Tức</a>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Khuyenmai.html">Khuyến Mãi</a>
+                        <a class="dropdown-item" href="tintuc.html">Tin Tức</a>
+                        <div class="dropdown-divider"></div>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Hình ảnh</a>
+                        </li>
+                        </ul>
+
+                        <!-- banner -->
+                        <div class="row">
+                                <div class="col-12" style="padding: 0; ">
+                                            <img style="width:100%" src="image/timthumb.jpg" alt="">
+                                </div>
+                        </div>
+
+
+                        <!-- menu o giua -->
+                        <div class="row menu-center">
+                                <div class="col-md-12">
+                                <ul class="nav justify-content-center">
+                                <li class="nav-item ">
+                                  <a id="douong" class="nav-link active drink" href="javascript:void(0)">Drink</a>
+                                </li>
+                                <li class="nav-item ">
+                                  <a id="doan" class="nav-link active food" href="javascript:void(0)">Food</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a id="banh" class="nav-link bakery" href="javascript:void(0)">Bakery</a>
+                                </li>
+                              </ul>
+                            </div> 
+                        </div>
+
+                        <!-- wrap galary anh -->
+                        <div class="container-fluid galary">
+
+                                        <!-- dirnk -->
+        <div class="anh drink-op">
+                <div class="row fixgalary">
+
+                        <div class="col-3">
+                                <img src="image/timthumb (1).jpg" alt="">
+                                <div class="span text">
+                                        <p class="tensanpham">Caramel Coffee</p>
+                                        <p class="gia">55.000đ</p>
+                                        <p><a href="gioihang.html"><button type="button" class="btn btn-primary">Đặt hàng</button></p></a>
+                
+                                </div>
+                                
+                                </div>
+        
+                                <div class="col-3">
+                                
+                                        <img src="image/timthumb (32).jpg" alt="">
+                                        <div class="span text">
+                                                <p class="tensanpham">Choco Coffee</p>
+                                                <p class="gia">55.000đ</p>
+                                                <p><a href="gioihang.html"><button type="button" class="btn btn-primary">Đặt hàng</button></p></a>
+                        
+                                        </div>
+                                        
+                                </div>
+                        
+                                <div class="col-3">
+                                        <img src="image/timthumb (12).jpg" alt="">
+                                        <div class="span text">
+                                                <p class="tensanpham">Cam ép sinh tố</p>
+                                                <p class="gia">55.000đ</p>
+                                                <p><a href="gioihang.html"><button type="button" class="btn btn-primary">Đặt hàng</button></p></a>
+                        
+                                        </div>
+                                        
+                                </div>
+                        
+                                <div class="col-3">
+                                        <img src="image/timthumb (4).jpg" alt="">
+                                        <div class="span text">
+                                                <p class="tensanpham">Trà Vải Lải</p>
+                                                <p class="gia">55.000đ</p>
+                                                <p><a href="gioihang.html"><button type="button" class="btn btn-primary">Đặt hàng</button></p></a>
+                        
+                                        </div>
+                        </div>
+                </div>
+                        <!-- galary anh 2 -->
+                        <div class="row">
+
+                                <div class="col-3">
+                                <img src="image/timthumb (5).jpg" alt="">
+                                <div class="span text">
+                                        <p class="tensanpham">Trà Hoa Hồng</p>
+                                        <p class="gia">55.000đ</p>
+                                        <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                
+                                </div>
+                                </div>
+                
+                                <div class="col-3">
+                                        
+                                        <img src="image/timthumb (6).jpg" alt="">
+                                        <div class="span text">
+                                                <p class="tensanpham">Trà May Mắn</p>
+                                                <p class="gia">55.000đ</p>
+                                                <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                        
+                                        </div>
+                                </div>
+                        
+                                <div class="col-3">
+                                        <img src="image/timthumb (11).jpg" alt="">
+                                        <div class="span text">
+                                                <p class="tensanpham">Trà Đào KR</p>
+                                                <p class="gia">55.000đ</p>
+                                                <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                        
+                                        </div>
+                                </div>
+                        
+                                <div class="col-3">
+                                        <img src="image/timthumb (13).jpg" alt="">
+                                        <div class="span text">
+                                                <p class="tensanpham">Ổi ép</p>
+                                                <p class="gia">55.000đ</p>
+                                                <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                        
+                                        </div>
+                                </div>
+                        </div>
+        </div>
+        
+
+            <div class="anh food-op">
+                    <div class="row fixgalary">
+
+                            <div class="col-3">
+                                <img src="image/timthumb (14).jpg" alt="">
+                                    <p class="tensanpham">Mỳ Ý Hải Sản </p>
+                                    <p class="gia">100.000đ</p>
+                                    <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+            
+                                </div>
+            
+                                <div class="col-3">
+                                    
+                                        <img src="image/timthumb (15).jpg" alt="">
+                                        <p class="tensanpham">Cơm Đùi Gà Quay</p>
+                                        <p class="gia">59.000đ</p>
+                                        <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                    </div>
+                        
+                                    <div class="col-3">
+                                        <img src="image/timthumb (16).jpg" alt="">
+                                        <p class="tensanpham">Cơm Cá Lóc Bông Kho Tội</p>
+                                        <p class="gia">58.000đ</p>
+                                        <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                    </div>
+                        
+                                    <div class="col-3">
+                                        <img src="image/timthumb (17).jpg" alt="">
+                                        <p class="tensanpham">Cơm Mực Xào Chua Cay</p>
+                                        <p class="gia">69.000đ</p>
+                                        <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                    </div>
+                    </div>
+                        <!-- galary anh 2 -->
+                        <div class="row">
+
+                                <div class="col-3">
+                                    <img src="image/timthumb (18).jpg" alt="">
+                                        <p class="tensanpham">Cơm Chiên Cá MặnGà Xé </p>
+                                        <p class="gia">85.000đ</p>
+                                        <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                
+                                    </div>
+                
+                                    <div class="col-3">
+                                        
+                                            <img src="image/timthumb (19).jpg" alt="">
+                                            <p class="tensanpham">Mì Xào Chay</p>
+                                            <p class="gia" >55.000đ</p>
+                                            <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                        </div>
+                            
+                                        <div class="col-3">
+                                            <img src="image/timthumb (20).jpg" alt="">
+                                            <p class="tensanpham">Mỳ Ý Thịt Bò Bằm</p>
+                                            <p class="gia">75.000đ</p>
+                                            <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                        </div>
+                            
+                                        <div class="col-3">
+                                            <img src="image/timthumb (21).jpg" alt="">
+                                            <p class="tensanpham">Hũ Tiếu Mỹ Tho</p>
+                                            <p class="gia">55.000đ</p>
+                                            <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                        </div>
+                        </div>
+                    </div>
+
+
+            <!-- banh bakary -->
+
+        <div class="anh bakery-op">
+                <div class="row fixgalary">
+
+                        <div class="col-3">
+                            <img src="image/timthumb (22).jpg" alt="">
+                                <p class="tensanpham">Coffee Gateaux</p>
+                                <p class="gia">28.000đ</p>
+                                <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+        
+                            </div>
+        
+                            <div class="col-3">
+                                
+                                    <img src="image/timthumb (23).jpg" alt="">
+                                    <p class="tensanpham">Green Tea Chocolate</p>
+                                    <p class="gia">32.000đ</p>
+                                    <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                </div>
+                    
+                                <div class="col-3">
+                                    <img src="image/timthumb (24).jpg" alt="">
+                                    <p class="tensanpham">Apple Danish</p>
+                                    <p class="gia">22.000đ</p>
+                                    <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                </div>
+                    
+                                <div class="col-3">
+                                    <img src="image/timthumb (25).jpg" alt="">
+                                    <p class="tensanpham">Butter Chocolate Croissant 30g</p>
+                                    <p class="gia">11.000đ</p>
+                                    <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                </div>
+                    </div>
+                    <!-- galary anh 2 -->
+                    <div class="row">
+
+                            <div class="col-3">
+                                <img src="image/timthumb (26).jpg" alt="">
+                                    <p class="tensanpham">Raisin Danish 35g</p>
+                                    <p class="gia" >11.000đ</p>
+                                    <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+            
+                                </div>
+            
+                                <div class="col-3">
+                                    
+                                        <img src="image/timthumb (27).jpg" alt="">
+                                        <p class="tensanpham">Pure Butter Croissant 30g</p>
+                                        <p class="gia">10.000đ</p>
+                                        <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                    </div>
+                        
+                                    <div class="col-3">
+                                        <img src="image/timthumb.jpg" alt="">
+                                        <p class="tensanpham">Passion Cheese Pax</p>
+                                        <p class="gia">48.000đ</p>
+                                        <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                    </div>
+                        
+                                    <div class="col-3">
+                                        <img src="image/timthumb (29).jpg" alt="">
+                                        <p class="tensanpham">Tiramisu</p>
+                                        <p class="gia">28.000đ</p>
+                                        <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+         
+
+
+
+                    <! <div class="row banner2">
+                        <div class="col-12 center">
+                                    <img style="width:100%" src="image/12334.jpg" alt="banner2">
+                        </div>
+                </div> 
+
+                <div class="chubanner">  
+                        <h4>Best Drink</h4> 
+                </div>
+                  
+                   <div class="row BestDirnks">
+                                <div class="col-3">
+                <img src="image/timthumb (1).jpg" alt="">
+                        <div class="span text">
+                                <p class="tensanpham">Caramel Coffee</p>
+                                <p class="gia">55.000đ</p>
+                                <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+        
+                        </div>
+                        
+                </div>
+
+                <div class="col-3">
+                        
+                        <img src="image/timthumb (32).jpg" alt="">
+                        <div class="span text">
+                                <p class="tensanpham">Choco Coffee</p>
+                                <p class="gia">55.000đ</p>
+                                <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+        
+                        </div>
+                        
+                        </div>
+        
+                        <div class="col-3">
+                        <img src="image/timthumb (12).jpg" alt="">
+                        <div class="span text">
+                                <p class="tensanpham">Cam ép sinh tố</p>
+                                <p class="gia">55.000đ</p>
+                                <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+        
+                        </div>
+                        
+                        </div>
+        
+                        <div class="col-3">
+                        <img src="image/timthumb (4).jpg" alt="">
+                        <div class="span text">
+                                <p class="tensanpham">Trà Vải Lải</p>
+                                <p class="gia">55.000đ</p>
+                                <p><button type="button" class="btn btn-primary">Đặt hàng</button></p>
+                                                        </div>
+             </div>
+                       
+
+<!-- thongtinphuclong2 -->
+           <div class="thongtinphuclong2">
+                <div class="row bottom">
+                        <div class="col-md-6 col-sm-12 left">
+                        <img class="align1" src="image/timthumb (30).jpg" alt="Generic placeholder image">
+                        </div>
+            
+            
+                        <div class="col-md-6 col-sm-12 right">
+                                <div class="media-body">
+                                <h5 class="mt-0">TỪ NHỮNG MẦM TRÀ, CHÚNG TÔI TẠO RA NIỀM ĐAM MÊ </h5>
+                <p>Trải qua gần 50 năm chắt chiu tinh hoa từ những búp trà xanh và hạt cà phê thượng hạng cùng mong muốn 
+                        mang lại cho khách hàng những trải nghiệm giá trị nhất khi thưởng thức,</p>
+                        Phúc Long liên tục là thương hiệu tiên phong với nhiều ý tưởng sáng tạo đi đầu trong ngành trà và cà phê.</p>
+
+                        <p>Chúng tôi tin rằng từng sản phẩm trà và cà phê sẽ càng thêm hảo hạng khi được tạo ra từ sự phấn đấu không ngừng cùng niềm đam mê.
+                        <p>Và chính kết nối dựa trên niềm tin, sự trung thực và tin yêu góp phần mang đến những</p>
+                        <p>nét đẹp trong văn hóa thưởng trà & cà phê ngày càng bay cao và vươn xa.</p>
+                        <button class="buttan1" type="button">Theo Dõi</button>
+                                            
+            
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+               </div>       
+		
+            </div>
+    
+
+<!-- thongtinphuclong1 -->
+<div class="thongtinphuclong1">
+        <div class="row center">
+                <div class="col-md-6 col-sm-12 ">
+                        <div class="media-body">
+                                <h5 class="mt-0" style=" text-align: center;">ĐỘI NGŨ NHÂN VIÊN TRÀN ĐẦY NHIỆT HUYẾT</h5>
+                                <P></P>Trong suốt quá trình hoạt động và phát triển, đội ngũ quản lý và
+                                 nhân viên của Phúc Long Coffee & Tea, qua bao thế hệ, đã cùng nhau xây dựng,
+                                 nuôi dưỡng niềm đam mê dành cho trà & cà phê với mong muốn được thử thách bản thân trong ngành dịch vụ năng động và sáng tạo.</P>
+                                      <button class="buttan1" type="button">Gia Nhập Đội Ngũ Phúc Long</button>
+                        </div>
+                    </div>
+    
+                                      <div class="col-md-6 col-sm-12 ">
+                                            <img class="align2" src="image/timthumb (31).jpg" alt="Generic placeholder image">
+                                    </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+   </div>       
+
+
+                <!-- <hinhanhkhachhang -->
+                    <div class="khachhang">
+                            <h1>Hình Ảnh Khách Hàng Ở Phúc Long</h1>
+                        <div class="row fixgalary">
+                                <div class="col-3 thanthiet">
+                                   <a href="image/32.jpg" data-fancybox="images"><img src="image/32.jpg" alt=""></a>
+                                        
+                        </div>
+
+                        <div class="col-3 ">
+                        
+                                <a href="image/23.jpg" data-fancybox="images"><img src="image/23.jpg" alt=""></a>
+                                
+                        </div>
+                
+                        <div class="col-3">
+                                <a href="image/24.jpg" data-fancybox="images"><img src="image/24.jpg" alt=""></a>
+                                
+                        </div>
+                
+                        <div class="col-3">
+                                <a href="image/25.jpg" data-fancybox="images"><img src="image/25.jpg" alt=""></a>
+                                
+                        </div>
+        </div>
+        
+                <div class="row">
+
+                        <div class="col-3 thanthiet">
+                                <a href="image/26.jpg" data-fancybox="images"> <img src="image/26.jpg" alt=""></a>
+                                
+
+                        </div>
+
+                        <div class="col-3">
+                                
+                                <a href="image/27.jpg" data-fancybox="images"><img src="image/27.jpg" alt=""></a>
+                                
+                                </div>
+                
+                                <div class="col-3">
+                                        <a href="image/28.jpg" data-fancybox="images"><img src="image/28.jpg" alt=""></a>
+                                
+                                </div>
+                
+                                <div class="col-3">
+                                        <a href="image/29.jpg" data-fancybox="images"><img src="image/29.jpg" alt=""></a>
+                                
+                                </div>
+                </div>
+        </div>
+
+                <hr>     
+
+                <!-- Foodter -->
+         <div class="row">
+                    
+                <div class="col-md-7 col-sm-12 Foodter">
+                <h1>Hệ thống cửa hàng </h1>
+                <div class="map-chose">
+                <div class="form-group location">
+                        <div class="btn-group bootstrap-select ng-pristine ng-untouched ng-valid">
+                                <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" role="button" data-id="slb_city" title="Hồ Chí Minh">
+                        <span class="filter-option pull-left">Hồ Chí Minh</span><span class="bs-caret">
+
+                        <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" role="button" data-id="slb_city" title="Hà Nội">
+                                        <span class="filter-option pull-left">Hà Nội</span><span class="bs-caret">
+                        <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" role="button" data-id="slb_city" title="Quận">
+                                        <span class="filter-option pull-left">Quận</span><span class="bs-caret">                      
+                                </div>
+                </div>
+
+        <p ng-click="storeClick($index, store)">
+        <i class="fas fa-store"></i><a class="cophan" href="javascript:void(0)" class="ng-binding">Phúc Long Loteria - 350 Lê Văn Sỹ, Q.3</a>
+        <a class="cophan" href="#" style="background-image: none; margin-top: -18px" class="ng-binding">Call: 028 39 311 049</a>
+        
+        </p>
+
+        <p ng-click="storeClick($index, store)">
+                <i class="fas fa-store"></i><a class="cophan" href="javascript:void(0)" class="ng-binding">Phúc Long 188 Trần Hưng Đạo - 188 Trần Hưng Đạo, Q.5</a>
+                <a class="cophan" href="#" style="background-image: none; margin-top: -18px" class="ng-binding">Call: 028 39 311 048</a>
+                
+                </p>
+
+        
+        <p ng-click="storeClick($index, store)">
+                <i class="fas fa-store"></i><a class="cophan" href="javascript:void(0)" class="ng-binding">Tòa nhà IPH ,241 Xuân Thủy, P.Dịch Vọng Hậu , Cầu Giấy  </a>
+                <a class="cophan" class="cophan" href="#" style="background-image: none; margin-top: -18px" class="ng-binding">Call: 024 3222 2000</a>
+                
+                </p>
+        
+        <p ng-click="storeClick($index, store)">
+                <i class="fas fa-store"></i><a class="cophan" href="javascript:void(0)" class="ng-binding">Phúc Long Cộng Hòa - 1B Cộng Hòa, Q. Tân Bình</a>
+                <a class="cophan" href="#" style="background-image: none; margin-top: -18px" class="ng-binding">Call: 028 39 311 048</a>
+                
+                </p>
+        
+        </div>
+                        </div>
+  <div class="col-md-5 col-sm-12 ">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.452889482704!2d106.66145691452937!3d10.77658346213828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fe081b37005%3A0x241f5966a966909c!2sPh%C3%BAc+Long+Coffee+%26+Tea!5e0!3m2!1svi!2s!4v1544691131931" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>      
+                        </div>
+                </div>
+               
+               
+        </div>
+        <div class="row">
+                <div class="col-md-3 col-xs-5 f-copyright">
+                        <a href="#">
+                        <img src="image/dathongbao.png" alt="dathongbao" class="img-responsive w-80">
+                        </a>
+                </div>
+                <div class="col-md-3 col-xs-7 f-social">
+        <ul class="icon">
+                <li class="1v1">
+        <li style="padding: 3%"; ><a class="btn-icon" href=""><i class="fab fa-facebook-f"></i></a>
+        <li style="padding: 3%"; ><a class="btn-icon" href="#"><i class="fab fa-twitter"></i></a>
+        <li style="padding: 3%"; ><a class="btn-icon" href=""><i class="fab fa-instagram"></i></a>
+        <li style="padding: 3%"; ><a class="btn-icon" href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+        </ul>
+</div>
+<div class="col-md-6 col-xs-12 f_follow">
+<label for="newsletter-email">Nhận tin khuyến mãi</label>
+<input name="_token" type="hidden" value="PG9Kzi9e5ZWNVVAYL1Hfb15QLt9cGXwsSKJc7wyT">
+
+
+<div class="form-group" id="submit-bottom">
+       
+                
+        <input type="email" class="form-control " id="newsletter-email" name="newsletter-email" placeholder="Nhập địa chỉ email">
+        <button type="submit" class="btn btn-default">Theo dõi</button>
+</div>
+
+
+
+
+
+
+
+                </div>
+              
+                                   
+                                </div>
+                            </div>
+
+        <!-- end -->
+
+
+
+    
+                
+     
+
+
+<script src="jquery-3.3.1.js"></script>
+    
+<script src="isotope.pkgd.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="js.js"></script>
+<script src="khachhang.js"></script>
+<script type="text/javascript" src="fancybox/fancybox-master/dist/jquery.fancybox.min.js"></script>
+
+
+</body>
+</html>

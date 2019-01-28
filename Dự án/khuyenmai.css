@@ -5,3 +5,9 @@ h1.list_title{
     font-size: 40px;
     font-weight: bold;
 }
+.menu-da-cap li a{
+    color: #147718;
+}
+a.nav-link {
+    color: #147718;
+}
